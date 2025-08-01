@@ -14,7 +14,7 @@ conda activate satellite-images-nso-datascience
 pip install -r requirements.txt
 pip install -e .
 ```
-Then in VS code go to your file, download the ipykernel package when prompted, and run the first line of
+Then in VS code go to your file, download the ipykernel package when prompted, and run the first line 
 
 ```sh
 pip install .

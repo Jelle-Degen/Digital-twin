@@ -29,5 +29,6 @@ setup(
         "fastparquet==2024.2.0",
         "imblearn==0.0",
         "mlflow==2.10.2",
+       " satellite_images_nso==1.2.5" 
     ],
 )
