@@ -19,15 +19,17 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     install_requires=[
-        "satellite_images_nso==1.2.5",
         "earthpy==0.9.4",
-        "geopandas==1.0.1",
         "scikit-learn==1.4.0",
-        "rasterio==1.3.9",
+        "GDAL==3.4.1",
         "fiona==1.9.5",
+        "rasterio==1.3.9",
+        "shapely==2.0.1",
+        "geopandas==1.0.1",
         "pyarrow==15.0.0",
         "fastparquet==2024.2.0",
         "imblearn==0.0",
-        "mlflow==2.10.2" 
+        "mlflow==2.10.2" ,
+        "satellite_images_nso==1.2.5",
     ],
 )
